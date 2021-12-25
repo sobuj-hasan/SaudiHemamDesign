@@ -11,8 +11,8 @@
     --vb: #00b4db;
     --gc: #CCCCCC;
     --bp: #002336;
+    --hg: #F2F2F2;
 }
-
 
 html {
     scroll-behavior: smooth;
@@ -126,7 +126,18 @@ button {
 .readmore-btn:hover{
     color: var(--wc);
 }
-
+.hemam-btn{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 16px 34px;
+    background: var(--bgc);
+    border-radius: 3px;
+    color: var(--wc);
+}
+.hemam-btn:hover{
+    color: var(--wc);
+}
 .scrolled {
     position: sticky;
     top: 0;

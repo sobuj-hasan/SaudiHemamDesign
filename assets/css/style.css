@@ -219,9 +219,8 @@ header {
     background-position: center;
     background-size: cover;
 }
-.banner-content{
-    padding-top: 80px;
-    padding-bottom: 80px;
+.banner-section .overlay {
+    background: #003552bf;
 }
 /* BANNER CSS END */
 
@@ -248,7 +247,7 @@ header {
     background-position: center;
 }
 .counter-section .overlay {
-    background: linear-gradient(90deg, #00b4dbe0 -0.91%, #0083b0e6 100%);
+    background: linear-gradient(90deg, #00b4dbc7 -0.91%, #0083b0e6 100%);
 }
 .counter-part{
     width: 20%;
@@ -410,6 +409,99 @@ hr.latest-news{
     color: var(--wc);
 }
 /* SUBSCRIBER PART END */
+
+/* =============================
+Our Service Page Css
+============================= */
+.banner{
+    background-image: url(../img/photos/our-service.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner .overlay {
+    background: #00355259;
+}
+.banner h4{
+    font-weight: 700;
+    color: var(--wc);
+}
+/* UNIQ SERVICE PART START */
+.uniq-service-part .card{
+    border: 2px solid var(--vb);
+    padding: 40px;
+    z-index: -1;
+}
+.uniq-service-part h4{
+    font-weight: 300;
+    line-height: 40px;
+    color: var(--psb);
+    text-transform: uppercase;
+}
+.uniq-service-part h4 strong{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+}
+.uniq-service-part h4 span{
+    color: var(--vb);
+}
+.uniq-service-part .text-box {
+    background: var(--hg);
+    min-height: 180px;
+    min-width: 120%;
+    margin-left: -140px;
+    z-index: 1;
+    border-radius: 10px;
+}
+.uniq-service-part .text-box .left{
+    width: 20%;
+}
+.uniq-service-part .text-box .left h1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    padding-left: 20px;
+    padding-top: 18px;
+}
+.uniq-service-part .text-box .right{
+    width: 70%;
+}
+.uniq-service-part .text-box .right .paragraph{
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+/* =============================
+Features and Capabilities
+============================= */
+.feature-banner{
+    background-image: url(../img/photos/feature-capabilities-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.features-capabilities{
+    background: var(--csw);
+}
+.features-capabilities .feature-card{
+    background: var(--wc);
+    border-radius: 5px;
+    padding: 38px 28px;
+    text-align: center;
+    min-height: 414px;
+    box-shadow: 0px 10px 30px 0px #0000001A;
+}
+.features-capabilities .feature-card .paragraph{
+    color: var(--lbc);
+    
+}
+
+
+
+
+
+
+
+
 
 /*FOOTER SECTION*/
 .footer-part {
