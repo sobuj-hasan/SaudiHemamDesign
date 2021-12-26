@@ -10,7 +10,7 @@ header {
 }
 
 .logo img {
-    max-width: 235px;
+    max-width: 205px;
 }
 
 .logo i {
@@ -587,17 +587,71 @@ hr.rehabilitation{
 /* ==============================
 Contact us page css
 ============================== */
+.contact-us{
+    background: var(--cs);
+}
+.contact-us .contact-form{
+    background: var(--wc);
+    padding: 40px;
+    box-shadow: 2px 6px 13px -3px #00000040;
+    border-radius: 5px;
+}
+.contact-us .contact-form h5{
+    color: var(--psb);
+}
+.contact-us .contact-form .form-control{
+    border: 1px solid var(--gc);
+}
+.contact-us .contact-form .input-form{
+    border: none;
+    border-bottom: 1px solid var(--gc);
+}
+.contact-us .contact-form .input-form::placeholder{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--gc);
+}
 
-
-
-
-
-
-
-
-
-
-
+.contact-us .contact-info{
+    background: var(--wc);
+    padding: 40px;
+    box-shadow: 2px 6px 13px -3px #00000040;
+    border-radius: 5px;
+}
+.contact-us .contact-info h5{
+    line-height: 20px;
+}
+.contact-us .contact-info i{
+    font-size: 16px;
+    color: var(--dgc);
+    transition: 0.3s;
+}
+.contact-us .contact-info p{
+    font-size: 14px;
+    line-height: 25px;
+    color: var(--dgc);
+}
+.contact-us .contact-info .social ul li{
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--dgc);
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.3s;
+}
+.contact-us .contact-info .social ul li a{
+    line-height: 30px;
+}
+.contact-us .contact-info .social ul li:hover{
+    background: var(--psb);
+}
+.contact-us .contact-info .social ul li:hover i{
+    color: var(--wc);
+}
+hr.info{
+    height: 2px;
+    background: var(--gc);
+}
 
 /*FOOTER SECTION*/
 .footer-part {
@@ -607,7 +661,7 @@ Contact us page css
     line-height: 24px;
     color: var(--wc);
     font-weight: 300;
-    font-size: 14px;
+    font-size: 18px;
 }
 .footer-part .left .paragraph{
     font-weight: 300;
@@ -635,7 +689,7 @@ hr.footer{
 
 .footer-part .middle .paragraph{
     font-weight: 300;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     color: #F5F5F5;
 }
@@ -664,7 +718,7 @@ hr.footer{
 }
 .footer-part .right .paragraph{
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     color: #F5F5F5;
 }
@@ -681,11 +735,12 @@ hr.footer{
 .copyright-part p{
     color: var(--wc);
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 16px;
 }
 .copyright-part ul li a{
     color: var(--wc);
+    font-size: 16px;
 }
 
 /* FOOTER PART END */
