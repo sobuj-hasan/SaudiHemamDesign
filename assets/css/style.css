@@ -492,8 +492,104 @@ Features and Capabilities
 }
 .features-capabilities .feature-card .paragraph{
     color: var(--lbc);
-    
 }
+
+/* ===============================
+Business Scope page 
+=============================== */
+.business-scope-banner{
+    background-image: url(../img/photos/business-scope-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.business-page .text-box {
+    min-height: 0px;
+}
+
+/* =================================
+Our partner page css
+================================= */
+.partner-brand{
+    background: var(--csw);
+}
+.partner-brand h4{
+    font-weight: 700;
+    color: var(--psb);
+}
+.partner-brand .brand:hover{
+    background: var(--wc);
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+/* ===================================
+Qualification & Training page css
+=================================== */
+.qualification img{
+    border: 10px solid var(--csw);
+}
+.qualification h4{
+    font-weight: 700;
+    color: var(--psb);
+    text-transform: uppercase;
+    line-height: 42px;
+}
+.qualification-two {
+    width: 110%;
+    margin-left: -30%;
+}
+.rehabilitation-part{
+    background: var(--cs);
+}
+.rehabilitation-part h6{
+    font-weight: 700;
+}
+hr.rehabilitation{
+    height: 2px;
+    background: var(--gc);
+}
+.rehabilitation-part .card{
+    border: none;
+    padding: 28px;
+    min-height: 170px;
+}
+/* our courses part */
+.courses-part h6{
+    font-weight: 700;
+}
+/* how to create website */
+.create-website-part .check-item .check {
+    width: 55px;
+    height: 55px;
+    background: var(--bgc);
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.3s;
+}
+.create-website-part .check-item .check i{
+    font-size: 22px;
+    line-height: 55px;
+    color: var(--wc);
+}
+.create-website-part h4{
+    font-weight: 700;
+    color: var(--psb);
+}
+.create-website-part .check-item:hover{
+    background: var(--bgc);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.create-website-part .check-item:hover p{
+    color: var(--wc);
+}
+
+/* ==============================
+Contact us page css
+============================== */
+
+
+
 
 
 
