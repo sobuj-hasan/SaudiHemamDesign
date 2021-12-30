@@ -653,6 +653,103 @@ hr.info{
     background: var(--gc);
 }
 
+/* ===========================
+Login Page css 
+=========================== */
+/* LOGIN PART */
+.login-part{
+    background: #F2F2F2;
+}
+.login-card{
+    background: var(--bgc);
+    border: none;
+}
+.login-card h3{
+    color: #FFFFFF;
+    font-size: 34px;
+}
+.login-card h6{
+    color: #FFFFFF;
+}
+.login-card button {
+    border: none;
+    background: #652d90;
+    height: 50px;
+    width: 83%;
+    margin-left: 56px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--wc);
+}
+.login-card p {
+    color: #FFFFFF;
+}
+.login-card ul li {
+    height: 30px;
+    width: 30px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    line-height: 34px;
+    text-align: center;
+    margin: 0px 8px;
+    font-size: 24px;
+}
+.login-card ul li a{
+    color: #315db8;
+}
+.login-card .custom-form-control{
+    height: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--psb);
+}
+.login-card .custom-form-control::placeholder{
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--qs);
+}
+/* LOGIN PART END */
+
+/* =============================
+Register page css 
+============================= */
+/* SIGN UP PART */
+.signin-part{
+    background: #F2F2F2;
+}
+.signin-card{
+    background: var(--bgc);
+    border: none;
+}
+.signin-card h3{
+    color: #FFFFFF;
+    font-size: 34px;
+}
+.signin-card h6{
+    color: #FFFFFF;
+}
+.signin-card p {
+    color: #FFFFFF;
+}
+.signin-card label {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--wc);
+}
+.signin-card button {
+    border: none;
+    background: #652d90;
+    height: 50px;
+    width: 88%;
+    margin-left: 40px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 22px;
+    color: var(--wc);
+}
+
 /*FOOTER SECTION*/
 .footer-part {
     background: var(--psb);
@@ -742,7 +839,6 @@ hr.footer{
     color: var(--wc);
     font-size: 16px;
 }
-
 /* FOOTER PART END */
 
 
