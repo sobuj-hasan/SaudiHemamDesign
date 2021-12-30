@@ -1,38 +1,30 @@
 @import "default.css";
 
-
 /*HEADER*/
 header {
     height: 100px;
     background: var(--bgc);
     transition: .4s;
-
 }
-
 .logo img {
     max-width: 205px;
 }
-
 .logo i {
     font-size: 22px;
     padding: 8px;
     padding-right: 0;
     transition: .2s;
 }
-
 .logo i:hover {
     color: var(--sc);
     cursor: pointer;
 }
-
 .menubar ul {
     text-align: right;
 }
-
 .menubar ul li {
     display: inline-block;
 }
-
 .menubar ul li a {
     font-weight: 500;
     font-size: 16px;
@@ -48,7 +40,6 @@ header {
     border: 1px solid var(--wc);
     line-height: 25px;
 }
-
 /*HEADER*/
 
 /*MOBILE MENU*/
@@ -59,7 +50,6 @@ header {
     padding: 10px 0;
     margin-left: 10px;
 }
-
 .mobile-logo i {
     font-size: 20px;
     float: right;
@@ -68,11 +58,9 @@ header {
     cursor: pointer;
     padding: 5px;
 }
-
 .mobile-logo i:hover {
     color: var(--sc);
 }
-
 .custom.accordion-button {
     text-transform: capitalize;
     font-weight: 500;
@@ -82,11 +70,9 @@ header {
     color: var(--psb);
     font-weight: 400;
 }
-
 .custom.accordion-button:hover {
     color: var(--sc);
 }
-
 .custom.accordion-button:focus {
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -94,7 +80,6 @@ header {
     border-top: 1px solid #ccc;
 
 }
-
 .custom.accordion-button:not(.collapsed) {
     color: var(--sc);
     background: var(--rc);
@@ -102,7 +87,6 @@ header {
     transform: none;
     font-weight: 400;
 }
-
 .custom.accordion-button:not(.collapsed)::after {
     background-image: none;
     content: "\f068";
@@ -110,40 +94,32 @@ header {
     -webkit-transform: rotate(0deg) !important;
     transform: rotate(0deg) !important;
 }
-
 .none.accordion-button:not(.collapsed)::after {
     content: none;
     -webkit-transform: rotate(0deg) !important;
     transform: rotate(0deg) !important;
 }
-
-
 .custom.accordion-button::after {
     background-image: none;
     content: "\f067";
     font-family: 'FontAwesome';
 }
-
 .none.accordion-button::after {
     content: none;
 }
-
 .custom.accordion-body {
     padding: 0 0px;
 }
-
 .custom.accordion-body ul {
     padding: 0;
     margin: 0;
 }
-
 .custom.accordion-body ul li {
     list-style: none;
     padding: 8px 0;
     -webkit-transition: .4s;
     transition: .4s;
 }
-
 .custom.accordion-body ul li a {
     text-decoration: none;
     font-size: 15px;
@@ -153,31 +129,24 @@ header {
     display: inline-block;
     margin-left: 40px;
 }
-
 .custom.accordion-body ul li a i {
     font-size: 10px;
     margin-right: 5px;
 }
-
 .custom.accordion-body ul li:hover {
     color: var(--wc);
     background: var(--rc);
 }
-
 .custom.accordion-body ul li:hover a {
     color: var(--sc);
 }
-
 .custom.accordion-item a {
     text-decoration: none;
 
 }
-
-
 .accordion-button.custom i {
     padding: 0 10px;
 }
-
 /*ACCORDION CUSTOM END*/
 .mobile-menu {
     width: 350px;
@@ -225,17 +194,12 @@ header {
 /* BANNER CSS END */
 
 /* WORK TYPE PART START */
-.work-type .check-item .check{
-    width: 65px;
-    height: 65px;
-    background: var(--bgc);
-    border-radius: 50px;
-    text-align: center;
-}
-.work-type .check-item .check i{
-    font-size: 22px;
-    line-height: 65px;
-    color: var(--wc);
+.work-type .check-item .check i {
+	background: var(--bgc);
+	padding: 22px;
+	border-radius: 50px;
+	font-size: 22px;
+	color: var(--wc);
 }
 /* WORK TYPE PART END */
 
@@ -248,10 +212,6 @@ header {
 }
 .counter-section .overlay {
     background: linear-gradient(90deg, #00b4dbc7 -0.91%, #0083b0e6 100%);
-}
-.counter-part{
-    width: 20%;
-    text-align: center;
 }
 .counter-part p{
     color: var(--wc);
